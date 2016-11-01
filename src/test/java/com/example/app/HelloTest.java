@@ -12,4 +12,9 @@ public class HelloTest {
 
         assertEquals("Hello user", hello.message("user"));
     }
+
+    @Test
+    public void helloMain() {
+        Hello.main(new String[]{});
+    }
 }
