@@ -4,6 +4,11 @@ plugins {
     id 'java'
 }
 
+buildScan {
+    licenseAgreementUrl = 'https://gradle.com/terms-of-service'
+    licenseAgree = 'yes'
+}
+
 repositories {
     jcenter()
 }
